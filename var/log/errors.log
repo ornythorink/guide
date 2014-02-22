@@ -1,0 +1,217 @@
+2014-02-06 04:38:43	86.67.40.13	error	2014-02-06 04:38:43	86.67.40.13	[300]	In the template /home/ornythorink/guide2/guide/modules/guide/templates/main.tpl, invalid syntax on tag 	/home/ornythorink/guide2/lib/jelix/tpl/jTplCompiler.class.php	256
+	/
+array ( )
+
+	0	jTplCompiler->_callback()	[php] : 
+	1	preg_replace_callback()	/home/ornythorink/guide2/lib/jelix/tpl/jTplCompiler.class.php : 234
+	2	jTplCompiler->compileContent()	/home/ornythorink/guide2/lib/jelix/tpl/jTplCompiler.class.php : 186
+	3	jTplCompiler->compileString()	/home/ornythorink/guide2/lib/jelix/tpl/jTplCompiler.class.php : 176
+	4	jTplCompiler->compile()	/home/ornythorink/guide2/lib/jelix/core/jIncluder.class.php : 110
+	5	jIncluder::inc()	/home/ornythorink/guide2/lib/jelix/tpl/jTpl.class.php : 250
+	6	jTpl->getTemplate()	/home/ornythorink/guide2/lib/jelix/tpl/jTpl.class.php : 202
+	7	jTpl->meta()	/home/ornythorink/guide2/lib/jelix/core/response/jResponseHtml.class.php : 183
+	8	jResponseHtml->output()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 220
+	9	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-06 04:40:29	86.67.40.13	error	2014-02-06 04:40:29	86.67.40.13	[300]	In the template /home/ornythorink/guide2/guide/modules/guide/templates/main.tpl, invalid syntax on tag 	/home/ornythorink/guide2/lib/jelix/tpl/jTplCompiler.class.php	256
+	/
+array ( )
+
+	0	jTplCompiler->_callback()	[php] : 
+	1	preg_replace_callback()	/home/ornythorink/guide2/lib/jelix/tpl/jTplCompiler.class.php : 234
+	2	jTplCompiler->compileContent()	/home/ornythorink/guide2/lib/jelix/tpl/jTplCompiler.class.php : 186
+	3	jTplCompiler->compileString()	/home/ornythorink/guide2/lib/jelix/tpl/jTplCompiler.class.php : 176
+	4	jTplCompiler->compile()	/home/ornythorink/guide2/lib/jelix/core/jIncluder.class.php : 110
+	5	jIncluder::inc()	/home/ornythorink/guide2/lib/jelix/tpl/jTpl.class.php : 250
+	6	jTpl->getTemplate()	/home/ornythorink/guide2/lib/jelix/tpl/jTpl.class.php : 202
+	7	jTpl->meta()	/home/ornythorink/guide2/lib/jelix/core/response/jResponseHtml.class.php : 183
+	8	jResponseHtml->output()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 220
+	9	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-06 16:33:08	86.67.40.13	error	2014-02-06 16:33:08	86.67.40.13	[18]	Unknown module in the selector "shoes~contact:send@classic"	/home/ornythorink/guide2/lib/jelix/core/selector/jSelectorAct.class.php	69
+	/index.php/guide/login/
+array (   'module' => 'guide',   'action' => 'login:index', )
+
+	0	jSelectorAct->_createPath()	/home/ornythorink/guide2/lib/jelix/core/selector/jSelectorAct.class.php : 55
+	1	jSelectorAct->__construct()	/home/ornythorink/guide2/lib/jelix/core/jUrl.class.php : 160
+	2	jUrl::get()	/home/ornythorink/guide2/lib/jelix/forms/Builder/HtmlBuilder.php : 139
+	3	jelix\forms\Builder\HtmlBuilder->outputHeader()	/home/ornythorink/guide2/temp/guide/www/compiled/templates/modules/guide/login_html_t_15.php : 71
+	4	template_89bfe839da935cb2bbac8fac00e82008()	/home/ornythorink/guide2/lib/jelix/tpl/jTpl.class.php : 284
+	5	jTpl->fetch()	/home/ornythorink/guide2/lib/jelix/core/response/jResponseHtml.class.php : 184
+	6	jResponseHtml->output()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 220
+	7	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-06 19:03:27	86.67.40.13	error	2014-02-06 19:03:27	86.67.40.13	[305]	In the template /home/ornythorink/guide2/guide/modules/guide/templates/main.tpl, end of  bloc literal is missing	/home/ornythorink/guide2/lib/jelix/tpl/jTplCompiler.class.php	686
+	/
+array ( )
+
+	0	jTplCompiler->doError1()	/home/ornythorink/guide2/lib/jelix/tpl/jTplCompiler.class.php : 398
+	1	jTplCompiler->_parseFunction()	/home/ornythorink/guide2/lib/jelix/tpl/jTplCompiler.class.php : 274
+	2	jTplCompiler->_callback()	[php] : 
+	3	preg_replace_callback()	/home/ornythorink/guide2/lib/jelix/tpl/jTplCompiler.class.php : 234
+	4	jTplCompiler->compileContent()	/home/ornythorink/guide2/lib/jelix/tpl/jTplCompiler.class.php : 186
+	5	jTplCompiler->compileString()	/home/ornythorink/guide2/lib/jelix/tpl/jTplCompiler.class.php : 176
+	6	jTplCompiler->compile()	/home/ornythorink/guide2/lib/jelix/core/jIncluder.class.php : 110
+	7	jIncluder::inc()	/home/ornythorink/guide2/lib/jelix/tpl/jTpl.class.php : 250
+	8	jTpl->getTemplate()	/home/ornythorink/guide2/lib/jelix/tpl/jTpl.class.php : 202
+	9	jTpl->meta()	/home/ornythorink/guide2/lib/jelix/core/response/jResponseHtml.class.php : 183
+	10	jResponseHtml->output()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 220
+	11	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-06 22:44:53	86.67.40.13	notice	2014-02-06 22:44:53	86.67.40.13	[8]	Undefined index: isAdmin	/home/ornythorink/guide2/temp/guide/www/compiled/templates/modules/guide/main_html_t_15.php	41
+	/index.php/saver/
+array (   'module' => 'saver',   'action' => 'default:index', )
+
+	0	template_191eb21ff163ceb3d67b3566f8bfa752()	/home/ornythorink/guide2/lib/jelix/tpl/jTpl.class.php : 284
+	1	jTpl->fetch()	/home/ornythorink/guide2/lib/jelix/core/response/jResponseHtml.class.php : 184
+	2	jResponseHtml->output()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 220
+	3	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-06 23:14:37	86.67.40.13	notice	2014-02-06 23:14:37	86.67.40.13	[8]	Undefined variable: idPage	/home/ornythorink/guide2/guide/modules/guide/controllers/default.classic.php	36
+	/
+array ( )
+
+	0	defaultCtrl->index()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 211
+	1	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-06 23:14:37	86.67.40.13	error	2014-02-06 23:14:37	86.67.40.13	[42000]	SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE idPage =' at line 1	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnection.class.php	128
+	/
+array ( )
+
+	0	PDO->query()	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnection.class.php : 128
+	1	jDbPDOConnection->query()	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnectionDebug.class.php : 24
+	2	jDbPDOConnectionDebug->query()	/home/ornythorink/guide2/guide/modules/guide/controllers/default.classic.php : 37
+	3	defaultCtrl->index()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 211
+	4	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-06 23:15:39	86.67.40.13	notice	2014-02-06 23:15:39	86.67.40.13	[8]	Undefined variable: idPage	/home/ornythorink/guide2/guide/modules/guide/controllers/default.classic.php	36
+	/
+array ( )
+
+	0	defaultCtrl->index()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 211
+	1	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-06 23:15:39	86.67.40.13	error	2014-02-06 23:15:39	86.67.40.13	[42000]	SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnection.class.php	128
+	/
+array ( )
+
+	0	PDO->query()	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnection.class.php : 128
+	1	jDbPDOConnection->query()	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnectionDebug.class.php : 24
+	2	jDbPDOConnectionDebug->query()	/home/ornythorink/guide2/guide/modules/guide/controllers/default.classic.php : 37
+	3	defaultCtrl->index()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 211
+	4	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-06 23:27:14	86.67.40.13	error	2014-02-06 23:27:14	86.67.40.13	[42S22]	SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'where clause'	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnection.class.php	128
+	/
+array ( )
+
+	0	PDO->query()	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnection.class.php : 128
+	1	jDbPDOConnection->query()	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnectionDebug.class.php : 24
+	2	jDbPDOConnectionDebug->query()	/home/ornythorink/guide2/guide/modules/guide/controllers/default.classic.php : 43
+	3	defaultCtrl->index()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 211
+	4	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-06 23:27:37	86.67.40.13	error	2014-02-06 23:27:37	86.67.40.13	[42S22]	SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pages.id' in 'where clause'	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnection.class.php	128
+	/
+array ( )
+
+	0	PDO->query()	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnection.class.php : 128
+	1	jDbPDOConnection->query()	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnectionDebug.class.php : 24
+	2	jDbPDOConnectionDebug->query()	/home/ornythorink/guide2/guide/modules/guide/controllers/default.classic.php : 43
+	3	defaultCtrl->index()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 211
+	4	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-06 23:28:28	86.67.40.13	error	2014-02-06 23:28:28	86.67.40.13	[42S22]	SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pages.id' in 'where clause'	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnection.class.php	128
+	/
+array ( )
+
+	0	PDO->query()	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnection.class.php : 128
+	1	jDbPDOConnection->query()	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnectionDebug.class.php : 24
+	2	jDbPDOConnectionDebug->query()	/home/ornythorink/guide2/guide/modules/guide/controllers/default.classic.php : 43
+	3	defaultCtrl->index()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 211
+	4	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-06 23:29:14	86.67.40.13	error	2014-02-06 23:29:14	86.67.40.13	[42S22]	SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pages.id' in 'where clause'	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnection.class.php	128
+	/
+array ( )
+
+	0	PDO->query()	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnection.class.php : 128
+	1	jDbPDOConnection->query()	/home/ornythorink/guide2/lib/jelix/db/jDbPDOConnectionDebug.class.php : 24
+	2	jDbPDOConnectionDebug->query()	/home/ornythorink/guide2/guide/modules/guide/controllers/default.classic.php : 44
+	3	defaultCtrl->index()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 211
+	4	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-06 23:42:09	86.67.40.13	error	2014-02-06 23:42:09	86.67.40.13	[132]	response is missing (action saver~default:index@classic)	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php	213
+	/index.php/saver/
+array (   'module' => 'saver',   'action' => 'default:index',   'value' => ' 						<h3>Harvest</h3> 						<div class="col1"> hasellus id adipiPscing nunc. Donec velko augue et nulla vehicula pretium. Donecjol po consequat accumsan erat ac vulputate. Ut consectetur commodo mollis. Ut necrcilo	fg tellus interdum aliquet. Phasellus juiher daiprtyiscing nunc. Donec vel augue etjotr lnulla hylo vehicula pretium. Donec consde equat gtmk accumsan erat ac vulpte. 						</div> 						<a href="#" class="btn">More</a> 					',   'id' => 'oneColumnText-1-1-1', )
+
+	0	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-06 23:43:18	86.67.40.13	error	2014-02-06 23:43:18	86.67.40.13	[132]	response is missing (action saver~default:index@classic)	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php	213
+	/index.php/saver/
+array (   'module' => 'saver',   'action' => 'default:index',   'value' => ' 						<h3>Harvest</h3> 						<div class="col1"> hasellus id adipiPscing nunc. Donec velko augue et nulla vehicula pretium. Donecjol po consequat accumsan erat ac vulputate. Ut consectetur commodo mollis. Ut necrcilo	fg tellus interdum aliquet. Phasellus juiher daiprtyiscing nunc. Donec vel augue etjotr lnulla hylo vehicula pretium. Donec consde equat gtmk accumsan erat ac vulpte. 						</div> 						<a href="#" class="btn">More</a> 					',   'id' => 'oneColumnText-1-1-1', )
+
+	0	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-06 23:43:31	86.67.40.13	error	2014-02-06 23:43:31	86.67.40.13	[132]	response is missing (action saver~default:index@classic)	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php	213
+	/index.php/saver/
+array (   'module' => 'saver',   'action' => 'default:index', )
+
+	0	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-08 20:59:25	66.249.66.114	error	2014-02-08 20:59:25	66.249.66.114	[0]	invalid form selector	/home/ornythorink/guide2/lib/jelix/core-modules/jelix/controllers/jforms.classic.php	30
+	/index.php/jelix/jforms/getListData
+array (   'module' => 'jelix',   'action' => 'jforms:getListData', )
+
+	0	jformsCtrl->getListData()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 211
+	1	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-09 03:21:30	66.249.66.114	error	2014-02-09 03:21:30	66.249.66.114	[0]	invalid form selector	/home/ornythorink/guide2/lib/jelix/core-modules/jelix/controllers/jforms.classic.php	30
+	/index.php/jelix/jforms/getListData
+array (   'module' => 'jelix',   'action' => 'jforms:getListData', )
+
+	0	jformsCtrl->getListData()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 211
+	1	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-09 09:33:05	66.249.66.114	error	2014-02-09 09:33:05	66.249.66.114	[0]	invalid form selector	/home/ornythorink/guide2/lib/jelix/core-modules/jelix/controllers/jforms.classic.php	30
+	/index.php/jelix/jforms/getListData
+array (   'module' => 'jelix',   'action' => 'jforms:getListData', )
+
+	0	jformsCtrl->getListData()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 211
+	1	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-09 15:33:59	66.249.66.114	error	2014-02-09 15:33:59	66.249.66.114	[0]	invalid form selector	/home/ornythorink/guide2/lib/jelix/core-modules/jelix/controllers/jforms.classic.php	30
+	/index.php/jelix/jforms/getListData
+array (   'module' => 'jelix',   'action' => 'jforms:getListData', )
+
+	0	jformsCtrl->getListData()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 211
+	1	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+
+2014-02-09 21:02:30	66.249.66.114	error	2014-02-09 21:02:30	66.249.66.114	[0]	invalid form selector	/home/ornythorink/guide2/lib/jelix/core-modules/jelix/controllers/jforms.classic.php	30
+	/index.php/jelix/jforms/getListData
+array (   'module' => 'jelix',   'action' => 'jforms:getListData', )
+
+	0	jformsCtrl->getListData()	/home/ornythorink/guide2/lib/jelix/core/jCoordinator.class.php : 211
+	1	jCoordinator->process()	/home/ornythorink/guide2/guide/www/index.php : 19
+
+

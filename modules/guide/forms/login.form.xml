@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form xmlns="http://jelix.org/ns/forms/1.1">
+    
+    <input ref="login" required="true" >
+        <label>Login:</label>
+    </input>
+    
+    <input ref="password" required="true" >
+        <label>Password:</label>
+    </input>
+
+    <submit ref="_submit">
+        <label>Se connecter</label>
+    </submit>
+</form>
