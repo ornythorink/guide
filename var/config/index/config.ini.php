@@ -12,8 +12,10 @@ jauth.access=2
 jauthdb.access=2
 saver.access=2
 widget.access=2
+programme.access=2
 [coordplugins]
 auth="index/auth.coord.ini.php"
+
 
 
 

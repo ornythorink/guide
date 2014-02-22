@@ -10,7 +10,7 @@ default = "guide"
 driver="mysql"
 
 ; For most of drivers:
-database="ornythorink_guide2"
+database="ornythorink_guide"
 host= "mysql.alwaysdata.com"
 user= "12932_guide"
 password= "baruk1492!"

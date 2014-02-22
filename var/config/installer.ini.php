@@ -39,6 +39,8 @@ saver.installed=1
 saver.version=0.1pre
 widget.installed=1
 widget.version=0.1pre
+programme.installed=1
+programme.version=0.1pre
 [__modules_data]
 jelix.contexts="db:default"
 
@@ -47,6 +49,7 @@ jauth.contexts="auth:index/auth.coord.ini.php"
 
 
 jauthdb.contexts="index/auth.coord.ini.php,db:default"
+
 
 
 

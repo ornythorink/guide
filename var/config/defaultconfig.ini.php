@@ -5,9 +5,9 @@
 startModule=guide
 startAction="default:index"
 
-locale=en_US
-availableLocales=en_US
-charset=UTF-8
+locale=fr_FR
+availableLocales=fr_FR
+charset=iso-8859-1
 
 ; see http://www.php.net/manual/en/timezones.php for supported values
 timeZone="Europe/Paris"
@@ -43,6 +43,7 @@ jsoap.access=0
 guide.access=2
 saver.access=2
 widget.access=2
+programme.access=2
 [coordplugins]
 ;name = file_ini_name or 1
 
@@ -222,6 +223,7 @@ name=
 
 [datepickers]
 ;default = jelix/js/jforms/datepickers/default/init.js
+
 
 
 
