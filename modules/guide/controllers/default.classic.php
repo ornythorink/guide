@@ -36,16 +36,17 @@ class defaultCtrl extends jController {
         foreach($widgets as $widget){
             $inner = " INNER JOIN  " .  $widget . " ON  pages.id = " . $widget . ".idPage ";
         }
-                         
+
+        /*
         $query = "SELECT  * FROM pages 
          " . $inner  . "
         WHERE pages.id = " . $idPage
         ;
               
-        $result = $cnx->query($query)->fetchAll();
+        $result = $cnx->query($query)->fetchAll();*/
          
         $rep->body->assign('isAdmin', $isAdmin);
-        $rep->body->assign('result', $result);
+        //$rep->body->assign('result', $result);
         
         return $rep;
     }

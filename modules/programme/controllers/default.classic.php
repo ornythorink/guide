@@ -24,6 +24,7 @@ class defaultCtrl extends jController {
          $res  = $cnx->query($query);
          $liste = $res->fetchAll();	   
         
+ 
          $tpl = new jTpl();
          
          $tpl->assign('programme', $liste);        

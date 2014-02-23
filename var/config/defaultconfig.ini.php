@@ -7,7 +7,7 @@ startAction="default:index"
 
 locale=fr_FR
 availableLocales=fr_FR
-charset=iso-8859-1
+charset=utf-8
 
 ; see http://www.php.net/manual/en/timezones.php for supported values
 timeZone="Europe/Paris"
